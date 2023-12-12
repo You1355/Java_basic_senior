@@ -1,0 +1,16 @@
+package com.gjdedu.pojo;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class User_Mybatis {
+    private Integer id;
+    private String name;
+    private Short age;
+    private Short gender;
+    private String phone;
+}
